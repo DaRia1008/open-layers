@@ -4,29 +4,54 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Привет</title>
+    <title>Карта</title>
   </head>
-
-  <header align = "right">
-    <background:liner-color(#FFFAFA)>
-        <ul class="menu">
-            
-             <li><h4><a href="#">main</a></h4></li>
-             <li><h4><a href="#">contacts</a></h4></li>
-             <li><h4><a href="#">about us</a></h4></li>
-           
-        </ul>
-    
-</header>
 
   <body>
 
     <center> 
-      <p><h1>MAPS </h1></p>
+      <section class="maps"></section>
+      <section>
+        <p><h1>MAPS</h1></p>
+       </section>
      </center>
    
     <div id="map"></div>
     <script type="module" src="./main.js"></script>
 
   </body>
+
+  <header align = "left">
+    <div class="wrapper">
+        <div class="menu">
+            <a href="#" class="menu-btn"></a>
+            <nav class="menu-list">
+
+             <a href="#">слои</a>
+             <a href="#">сообщить о проблеме</a>
+             <a href="#">о нас</a>
+            </nav>
+        </div>
+
+<div class="content">
+
+    <section class="layers"></section>
+<section>
+    <h4>слои</h4>
+</section>
+<section class="problems"></section>
+<section>
+    <h4>сообщить о проблеме</h4>
+</section>
+<section class="about"></section>
+<section>
+    <h4>о нас</h4>
+</section>
+
+</div>
+
+    </div>   
+</header>
+
+  
 </html>
