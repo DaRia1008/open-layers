@@ -1,16 +1,5 @@
 @import "node_modules/ol/ol.css";
 
-html, body {
-  margin: 0;
-  height: 100%;
-}
-#map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-
 
 
 header {
@@ -53,9 +42,23 @@ header {
       font-family:Pompadur;
   }
   
-   
-  body {
-  background-color: rgb(255, 241, 241);
+
+
+
+
+
+
+
+
+
   
+  html, body {
+    margin: 0;
+    height: 100%;
   }
-  
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
