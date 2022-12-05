@@ -1,7 +1,7 @@
 
 
 import './style.css';
-import {Map, View} from 'ol';
+import { Map, View } from 'ol';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
 import { fromLonLat } from 'ol/proj';
@@ -14,13 +14,26 @@ const map = new Map({
     })
   ],
   view: new View({
-    center: fromLonLat ([92.852572, 56.010569]),
+    center: fromLonLat([92.852572, 56.010569]),
     zoom: 12
   })
 });
 
-$('menu-btn').on('click',function() {
-  e.preventDefault();
-   $('.menu').toggleClass('menu_active');
-   $('content'),toggleClass('content_active')
- })
+// import $ from 'jquery';
+// import toggleClass from 'jQuery';
+
+
+// $('#menu-btn').on('click', function () {
+//   // e.preventDefault();
+//   $('.menu-wrapper .menu').toggleClass('menu_active');
+//   $('#content').toggleClass('content_active');
+// }
+// );
+
+
+// $(document).ready(function () {
+//   $(".menu-btn").click(function () {
+//     // $(".menu").slideToggle("slow");
+//     $(".menu").toggleClass("menu_active")
+//   });
+// });
