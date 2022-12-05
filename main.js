@@ -20,5 +20,5 @@ const map = new Map({
 $('menu-btn').on('click',function() {
   e.preventDefault();
    $('.menu').toggleClass('menu_active');
-   $('content') toggleClass('content_active')
+   $('content'),toggleClass('content_active')
  })
