@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Карта</title>
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="./scipts.js"></script>
+  <title>Карта</title>
+</head>
 
-    <center> 
-      <section class="maps"></section>
-      <section>
-      <p><h1>MAPS</h1></p>
-       </section>
-     </center>
-   
-    <div id="map"></div>
-    <script type="module" src="./main.js"></script>
+<body>
 
-    
-    <header align = "left">
-      <div class="wrapper">
-        <div class="menu">
-          <a href="#" class="menu-btn"></a>
-          <nav class="menu-list">
-            
-            <a href="#">слои</a>
-            <a href="#">сообщить о проблеме</a>
-            <a href="#">о нас</a>
-          </nav>
-        </div>
-        
+  <div class="main">
+
+    <div class="header">
+      <p>
+      <h1>MAPS</h1>
+      </p>
+    </div>
+
+    <div id="map" class="map"></div>
+
+    <div class="menu-wrapper" id="menu-wrapper">
+      <div class="menu" id="menu">
+        <a href="#" class="menu-btn" id="menu-btn" onclick="toggle_view()"></a>
+        <nav class="menu-list">
+
+          <a href="#">слои</a>
+          <a href="#">сообщить о проблеме</a>
+          <a href="#">о нас</a>
+        </nav>
+
         <div class="content">
-          
+
           <section class="layers"></section>
           <section>
             <h4>слои</h4>
@@ -46,12 +45,14 @@
           <section>
             <h4>о нас</h4>
           </section>
-          
+
         </div>
-        
-      </div>   
-    </header>
-    
-  </body>
-  
+      </div>
+
+      <script type="module" src="./main.js"></script>
+    </div>
+  </div>
+
+</body>
+
 </html>

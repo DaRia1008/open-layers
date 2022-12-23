@@ -9,6 +9,7 @@
     "deploy": "deploy.bat"
   },
   "devDependencies": {
+    "jquery": "^3.6.1",
     "vite": "^3.0.9"
   },
   "dependencies": {
