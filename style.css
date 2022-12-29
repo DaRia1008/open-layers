@@ -8,9 +8,11 @@ body {
 
 #map {
   position: absolute;
-  top: 100;
-  bottom: 100;
+  top: 0;
+  bottom: 0;
   width: 100%;
+  left: 0;
+  right: 0;
 }
 
 
@@ -23,20 +25,26 @@ section {
 }
 
 .layers {
-  background-color: rgb(94, 135, 153);
+  background-color: hsl(320, 24%, 48%);
 }
 
 .problems {
-  background-color: rgb(94, 135, 153);
+  background-color: rgb(201, 144, 167);
 }
 
 .about {
-  background-color: rgb(94, 135, 153);
+  background-color: rgb(165, 74, 110);
 }
 
 .wrapper {
   position: relative;
   overflow-x: hidden;
+}
+
+#menu a {
+text-decoration: none;
+font: 17px Century;
+color: rgb(85, 42, 66);
 }
 
 .menu {
@@ -49,9 +57,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(151, 186, 206);
+  background-color: rgb(255, 233, 240);
   transition: 0.5s;
   transform: translate(-100%);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .menu_active {
@@ -68,7 +78,7 @@ section {
 }
 
 .menu-list {
-  text-decoration: none;
+  text-decoration-color: black;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -76,7 +86,7 @@ section {
 .menu-btn {
   width: 30px;
   height: 30px;
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(255, 255, 255);
   position: absolute;
   right: -35px;
   top: 50vh;
