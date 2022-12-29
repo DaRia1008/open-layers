@@ -44,9 +44,12 @@ section {
 
 #menu a {
 text-decoration: none;
-font: 20px Courier, monospace;
-color: rgb(255, 255, 255);
+font: 17px arial;
+color: rgb(245, 245, 245);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
 
 .header {
   position: relative;
