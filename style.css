@@ -29,7 +29,7 @@ section {
 }
 
 .problems {
-  background-color: rgb(201, 144, 167);
+  background-color: rgb(224, 204, 212);
 }
 
 .about {
@@ -39,12 +39,23 @@ section {
 .wrapper {
   position: relative;
   overflow-x: hidden;
+
 }
 
 #menu a {
 text-decoration: none;
-font: 17px Century;
-color: rgb(85, 42, 66);
+font: 20px Courier, monospace;
+color: rgb(255, 255, 255);
+}
+
+.header {
+  position: relative;
+  z-index: 1;
+  color: rgb(133, 76, 115);
+  font-size: 30px;
+  font: Courier, monospace;
+  font-weight: 600;
+
 }
 
 .menu {
@@ -57,7 +68,7 @@ color: rgb(85, 42, 66);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 233, 240);
+  background-color: rgb(175, 151, 159);
   transition: 0.5s;
   transform: translate(-100%);
   text-decoration: none;
